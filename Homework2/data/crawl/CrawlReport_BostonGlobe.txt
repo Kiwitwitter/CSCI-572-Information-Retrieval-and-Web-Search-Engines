@@ -1,0 +1,41 @@
+Name: Peng Zhang
+USC ID: 7292183243
+News site crawled: bostonglobe.com
+
+Fetch Statistics
+================
+# fetches attempted: 19618
+# fetches succeeded: 19393
+# fetches aborted: 71
+# fetches failed: 154
+
+Outgoing URLs:
+==============
+Total URLs extracted: 1404963
+# unique URLs extracted: 675106
+# unique URLs within News Site: 127172
+# unique URLs outside News Site: 547934
+
+Status Codes:
+=============
+200 OK: 19393
+301 Moved Permanently: 26
+401 Unauthorized: 0
+403 Forbidden: 0
+404 Not Found: 154
+
+File Sizes:
+===========
+< 1KB: 4
+1KB ~ <10KB: 1011
+10KB ~ <100KB: 17749
+100KB ~ <1MB: 625
+>= 1MB: 0
+
+Content Types:
+==============
+text/html: 15399
+image/gif: 3
+image/jpeg: 3953
+image/png: 33
+application/pdf: 1
