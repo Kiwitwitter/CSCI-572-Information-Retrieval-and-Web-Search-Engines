@@ -9,6 +9,7 @@ public class PageRank {
 		double initial_score = ((double)1/(double)sum);
 		double d_factor = 0.85;
 		int max_loop = 30;
+		double tol = 1e-06;
 		int total = 0;
 		for(Node n: g.getGraphNodes()) {
 			total += n.getOutLinkSize();
