@@ -41,11 +41,11 @@ public class ExtractLinks {
 	
 	public Graph buildGraph(String loc) {
 		Graph g = new Graph();
-		Set<String> keys = lk_id.keySet();
+		Set<String> keys = id_nd.keySet();
 		for(String now: keys) {
 			try {
 				File nowf = new File(loc + "/" +now);
-				Document doc = Jsoup.parse(nowf, "UTF-8","http://www.bostonglobe.com/");
+				Document doc = Jsoup.parse(nowf, "UTF-8", "http://www.bostonglobe.com/");
 				Node nowNode = id_nd.get(now);
 				g.addToGraph(nowNode);
 				Elements links = doc.select("a[href]");
